@@ -29,9 +29,9 @@ module Half_adder_nand(
     wire x,y,z;
     //here we could implement in gate level
     nand(z,A,B);
-    nand(y,A,x);
-    nand(z,B,x);
-    nand(Sum,y,z);
-    nand(Carry,x,x);
+    nand(y,A,z);
+    nand(x,B,z);
+    nand(Sum,y,x);
+    nand(Carry,z,z);
     
 endmodule
