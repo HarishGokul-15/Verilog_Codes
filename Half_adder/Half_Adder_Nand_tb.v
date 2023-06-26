@@ -22,7 +22,7 @@
 
 module Halfadder_tb;
 reg A,B;wire Sum,Carry;
-Half_adder uut(.A(A),.B(B),.Sum(Sum),.Carry(Carry));
+Half_adder_nand uut(.A(A),.B(B),.Sum(Sum),.Carry(Carry));
 initial begin
 #10 A=0;B=0;
 #10 A=0;B=1;
