@@ -1,0 +1,1 @@
+This folder contains the implementation of Up counter , the upcounter has 2^n states and the counter is loaded with a value upon setting the load signal
