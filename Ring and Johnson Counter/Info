@@ -1,0 +1,1 @@
+This folder contains the implementation of 2 bit ring and johnson counter. Ring counter has n states and johnson  counter has 2n state. They are categorised as special counter
