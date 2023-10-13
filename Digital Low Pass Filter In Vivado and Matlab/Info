@@ -1,0 +1,28 @@
+ Digital Filter Implementation using Matlab and Vivado
+
+1. The MATLAB is used to generate the coefficient of the filter
+   in the command window type,
+   >>> fdatools
+
+2.  fdatools window would open, change the sampling frequency,passband frequency and stopband frequency as per the requirement and can choose between low pass,high 
+    pass , band pass and band stop filters
+
+3.  Also can change the pass band and stop band attenuation as per the requirement
+
+4.  Then navigate to set quantization parameter and change the filter arithmetic to fixed point for FPGA implementation
+
+5.  The export the coefficient as coefficient file
+
+6.  Then open the coefficient file with text editor such as notepad and remove the content in the above till the coefficient data and add 
+    radix=10;
+    coefdata=
+    coefficient data seperate by commas and end with semicolon
+    save it as .coe file
+
+7.  Open Vivado and select create block design
+
+8.  In add IP -> Select FIR compiler -> Select the source as COE file and browse the file
+
+9.  Adjust the channel and implementation specification as per the requirement
+
+10. By clicking finish at the summary the digital filter block would be generated
