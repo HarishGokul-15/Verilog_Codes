@@ -1,0 +1,7 @@
+This is the implemenation of 4 bit barrel shifter using 4x1 mux. This would shift the data by the number of bits eg: If select line value is 0 no bits would be shifter, if the select line is 1 bit  the data is shifted by 1 bit
+
+->  Write the verilog code for 4x1 mux
+->  Create block design and import the module
+->  Arrange the mux as per the specification of barrel shifter
+->  Create Input and output port
+->  Perform simulation to verify the result
