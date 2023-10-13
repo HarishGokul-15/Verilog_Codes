@@ -1,0 +1,8 @@
+This folder implements the implementation of 4 bit shift register by IP block
+
+-> Create the D-flip flop module in verilog file
+-> Create block design in vivado
+-> Add the d flip flop module
+-> Arrange the D-flip flop as per the shift register
+-> Assign input and output port
+-> Perform simulation to verify the results
