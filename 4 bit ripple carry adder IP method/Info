@@ -1,0 +1,7 @@
+This file implements the 4 bit ripple carry adder by
+
+-> Create an half adder as a verilog file
+-> Add the verilog module to the block design by clicking the create block design in vivado
+-> Then arrange the full adder as per the functionality of the ripple carry adder
+-> Then assign input and output port
+-> Perform simulation to verify the result
