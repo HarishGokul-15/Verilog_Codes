@@ -1,0 +1,8 @@
+This folder implements an Up down counter IP by 
+
+-> Code the logic of up down counter in Verilog
+-> Perform simulation to check if it is working properly
+-> Create new block design
+-> Add module by right click in canvas
+-> Select the verilog file to generate the schematic
+-> Further the block could be reused to make complex designs
