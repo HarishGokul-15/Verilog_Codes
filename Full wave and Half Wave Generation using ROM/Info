@@ -1,0 +1,6 @@
+This folder implements the following:
+1.  A sine wave and half wave generated and then typecasted and filtered using digital IIR filter, then the coefile is written using MATLAB
+2.  Then the block RAM generator is created using IP and the COE file is loaded as init file
+3.  Then the address is given as input using the counter
+4.  Then input and output ports are created
+5.  Then simulation is performed
