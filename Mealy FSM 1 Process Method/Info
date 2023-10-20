@@ -1,0 +1,5 @@
+This Folder implements Mealy FSM using 1 Process Method
+
+Mealy FSM output depend on present state and input 
+
+This uses 1 always block which contain reset logic , next state and output decoder
