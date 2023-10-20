@@ -1,0 +1,5 @@
+This folder implements Moore FSM using 1 Process Method
+
+-> Moore FSM output depend only on Present State
+-? It uses 1always block
+      -> Same always block for reset logic,next state decoder and output decoder combined
