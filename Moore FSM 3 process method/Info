@@ -1,0 +1,6 @@
+This process implement moore FSM by using 3 process method
+-> The Moore FSM output depend on present state only 
+-> The three process method use 3 always block for
+    ->Reset Logic
+    ->Next State Decoder
+    -> Output Decoder
