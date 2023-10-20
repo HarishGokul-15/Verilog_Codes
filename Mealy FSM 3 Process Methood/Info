@@ -1,7 +1,0 @@
-This folder implements Moore FSM using 3 Process Method
-
--> Mealy FSM output depend only on Present State and input
--? It uses 3 always block
-      -> One for reset logic
-      -> Next State Decoder
-      -> Output Decoder
