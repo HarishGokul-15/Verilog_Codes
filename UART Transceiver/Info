@@ -7,3 +7,9 @@ This code contain the trigger of Baud rate logic, and followed by transmission o
 The input of system 1 would contain array of data to be sent as individually in serial mode
 
 Serial transmission and recpetion is achieved by this project
+
+The code contain the following logic
+1. Baud clock trigger genration
+2. Transmission logic
+3. Reception logic
+4. Testbench
