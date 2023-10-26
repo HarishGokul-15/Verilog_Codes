@@ -1,4 +1,0 @@
-This folder contain implementation of adder to demonstrate the file handling in testbench and it involves
--> Writing data to txt file
--> Using the data to perform addition
--> Comparing the obtained result with desired
