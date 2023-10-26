@@ -1,0 +1,9 @@
+This folder contain implementation of UART Transceiver 
+UART-Universal Asynchronous Receiver Transmitter is suitable for small distance and low data rate application 
+it contain 4 pin (2 pin for data transmission , 2 data pin for Vcc and ground)
+
+This code contain the trigger of Baud rate logic, and followed by transmission of data bit with start bit 0  and stop bit 1
+
+The input of system 1 would contain array of data to be sent as individually in serial mode
+
+Serial transmission and recpetion is achieved by this project
