@@ -1,0 +1,7 @@
+This folder contain the implementation of file handling with file handling system function including
+
+-> $fopen("location",mode of operation); //where location is location of file and  it is adviced to be in project workspace and "w" for write operation and "r" for read operation
+-> $flose(file_id);                      // to close the file where file id is an integer that would store the id of file that is opened
+-> $fdisplay(file_id,"format specifier",source);  // the format specifier is either hex or bin format
+-> readmemh("location",register); to read data in hexadecimal and to read in binary use $reammemb
+-> if multiple column exists, then the index would start from 0 and increase along the column
