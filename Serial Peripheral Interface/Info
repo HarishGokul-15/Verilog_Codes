@@ -1,0 +1,8 @@
+This folder implement Serial Peripheral Interface which contain slow clock which is generated from the actual clock, Chip select and MOSI pin
+
+-> There will be the following states
+    -> Idle state in which the chip select would be 0
+    -> Start transmission state in which the chip select would be low for one clock period
+    -> Send data in which the mosi pin is loaded with data and sent
+    -> Then end transmission in which the chip select would be 1 once again
+    -> Then back to idle state
