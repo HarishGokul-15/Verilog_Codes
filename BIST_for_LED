@@ -1,0 +1,13 @@
+This is the Built In Self Test module for LED and switch which is used to check whether LED are working fine
+
+The following pattern is observed upon switch =0
+
+                    '
+                    ''
+                    '''
+                    ''''
+                    '''
+                    ''
+                    '
+
+if switch == some value example if 1100 then first and second LED would glow
