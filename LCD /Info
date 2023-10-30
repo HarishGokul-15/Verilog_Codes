@@ -1,0 +1,5 @@
+This folder implements LCD which contain the EN pin which is the clock,RW for read and write, RS for register select which 0 for command and 1 for data
+8 bit data pin
+If RS=0 then command would be sent and if RS=1 then data would be sent to the LED
+
+A Memory is modelled and initially commands are stored and then the data stored and the value "VERILOG" is displayed
