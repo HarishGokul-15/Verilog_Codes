@@ -1,0 +1,4 @@
+This folder implements pulse width modulation in which the width of Ton would vary for each interval in this project
+
+  -> The ton period would increase for every clock cycle and eventually reduce in the same steps
+  -> The PWM could be also used to control the intensity of LED
